@@ -24,7 +24,7 @@ public class HelloWorldTests {
 	public void shouldPrintTimeToConsole() {
 		HelloWorld.main(new String[] { });
 
-		assertThat(output(), containsString("The current local time is111"));
+		assertThat(output(), containsString("The current local time is"));
 	}
 
 	@Test
